@@ -284,6 +284,3 @@ def refresh(expected_bulbs=None, timeout=1):
         return []
     return get_state(bulbs, timeout=timeout)
 
-
-bulbs = find_bulbs(expected_bulbs=1)
-print(get_state(bulbs))
